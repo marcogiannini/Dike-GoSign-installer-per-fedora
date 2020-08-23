@@ -28,6 +28,7 @@ dnf install nautilus-python
 dnf install usb_modeswitch
 dnf install pcsc-lite
 dnf install pcsc-tools
+dnf install libappindicator
 
 echo "Ora che abbiamo installato i pacchetti necessari installiamo il programma";
 
