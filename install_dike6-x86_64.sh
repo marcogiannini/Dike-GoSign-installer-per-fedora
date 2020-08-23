@@ -33,7 +33,7 @@ dnf install libjpeg-turbo
 dnf install libjpeg-turbo-devel 
 dnf install libjpeg-turbo-static 
 
-ln -s libjpeg.so.62.0.0 libjpeg.so.8
+ln -s libjpeg.so.62.3.0 libjpeg.so.8
 
 echo "Ora che abbiamo installato i pacchetti necessari installiamo il programma";
 
