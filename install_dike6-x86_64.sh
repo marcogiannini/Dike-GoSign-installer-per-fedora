@@ -53,6 +53,14 @@ cp -f -r usr /
 
 echo "copie eseguite";
 
+#Scarico e compilo jpeg8
+wget http://www.ijg.org/files/jpegsrc.v8d.tar.gz
+tar zxvf jpegsrc.v8d.tar.gz
+cd jpeg-8d
+./configure
+make
+sudo make install
+
 # Roba per Dike, i link non dovrebbero servire ma il resto si
 chmod 0755 /opt/dike6/Dike
 ln -fs "/opt/dike6/Dike" "/usr/bin/Dike"
