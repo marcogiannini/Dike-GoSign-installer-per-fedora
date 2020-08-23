@@ -32,7 +32,8 @@ dnf install libappindicator
 dnf install libjpeg-turbo 
 dnf install libjpeg-turbo-devel 
 dnf install libjpeg-turbo-static 
-dnf install libjpeg-turbo-util
+
+ln -s libjpeg.so.62.0.0 libjpeg.so.8
 
 echo "Ora che abbiamo installato i pacchetti necessari installiamo il programma";
 
