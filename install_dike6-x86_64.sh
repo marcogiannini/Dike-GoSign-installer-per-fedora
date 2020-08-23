@@ -33,7 +33,6 @@ dnf install libjpeg-turbo
 dnf install libjpeg-turbo-devel 
 dnf install libjpeg-turbo-static 
 
-ln -s libjpeg.so.62.3.0 libjpeg.so.8
 
 echo "Ora che abbiamo installato i pacchetti necessari installiamo il programma";
 
@@ -57,6 +56,7 @@ echo "copie eseguite";
 # Roba per Dike, i link non dovrebbero servire ma il resto si
 chmod 0755 /opt/dike6/Dike
 ln -fs "/opt/dike6/Dike" "/usr/bin/Dike"
+ln -s libjpeg.so.62.3.0 libjpeg.so.8
 cp -f /opt/dike6/res/dike_shell_ext.py /usr/lib64/nautilus/extensions-3.0/
 
 echo "Installazione completata.... "
