@@ -54,7 +54,6 @@ chmod 0755 /opt/dike6/Dike
 ln -fs "/opt/dike6/Dike" "/usr/bin/Dike"
 ln -s libjpeg.so.62.0.0 libjpeg.so.8
 cp -f /opt/dike6/res/dike_shell_ext.py /usr/lib64/nautilus/extensions-3.0/
-install_dike6-x86_64.sh 
 
 echo "Installazione completata.... "
 
