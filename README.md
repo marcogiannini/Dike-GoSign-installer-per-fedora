@@ -1,5 +1,6 @@
 # Dike GoSign installer per fedora
-Questo script consente di installare Dike GoSign su fedora
+Questo script consente di installare Dike GoSign su fedora.
+
 Questo script è un fork di Dike6_urpmi_install https://sourceforge.net/projects/dike6-urpmi-install/ ed è stato riadattato per fedora.
 
 Lo script è stato testato su fedora 32
