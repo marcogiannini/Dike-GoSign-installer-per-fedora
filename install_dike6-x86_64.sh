@@ -75,7 +75,8 @@ cd ..
 rm -f -r dike_temp
 
 exit
-cp -f /usr/share/applications/Dike6.desktop ~/Scrivania/
+desktop=$(xdg-user-dir DESKTOP)
+cp -f /usr/share/applications/Dike6.desktop ${desktop}
 
 echo "Grazie Per aver usato lo script. Un ringraziamento va a Grigo, autore iniziale dello script"
 #aggiungiamo una fonte..
